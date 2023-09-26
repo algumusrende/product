@@ -70,13 +70,14 @@ def get_data():
     merchant_info = {brand:[city_name, seller_score]}
     #all_merchs = list(map(list, all_merchs.items()))
 
-    return {"name":product_name,
+
+    result={"name":product_name,
             "brand":brand,
             "selling_price": selling_price,
             "discounted_price": discounted_price,
             "category_hierarchy": category_hierarchy,
             "merchant_info": merchant_info,
             "other_merchants": all_merchs}
+    
 
-product_data = get_data()
-print(product_data)
+    return result
