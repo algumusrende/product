@@ -75,7 +75,7 @@ def get_data():
             "brand":brand,
             "selling_price": selling_price,
             "discounted_price": discounted_price,
-            "category_hierarchy": category_hierarchy,
+            "category": category_hierarchy,
             "merchant_info": merchant_info,
             "other_merchants": all_merchs}
     
